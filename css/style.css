@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family:'Courier New', Courier, monospace;  
+}
+
+body{
+    background-color: aqua;
+}
+.wrapper{
+    /* width: 50rem; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    background-color: white;
+    padding: 5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,1) ;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+}
+.img {
+    width: 200%;
+}
+.content{
+    font-size: 2rem;
+    margin-left: 20rem;
+    display: inline-block;
+    
+}
+.h1{
+
+}
+.h4{
+padding-bottom: 2rem;
+}
+.p{
+    padding: 2rem 0;
+}
+.BOX{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.box{
+    height: 30px;
+    width: 30px;
+    background-color:red; 
+    margin: 0.5rem;  
+}
+#box2{
+    background-color: rgb(0, 0, 0);
+}
+
+.button{
+    font-size: 2rem;
+    padding: 0.5rem 6rem;
+    background-color: white;
+    border: 0.2rem solid black;
+    border-radius: 0.7rem;
+    outline: none;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(237, 54, 54);
+    border: none;
+
+}
+.button:hover a{
+    color: aliceblue;
+
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper{
+    display: flex;
+}
